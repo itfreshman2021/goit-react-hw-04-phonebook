@@ -1,0 +1,31 @@
+.ContactListItemli {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  font-weight: 500;
+}
+
+.ContactListItemP {
+  display: block;
+
+  margin: 0;
+}
+.ContactListItemSpan {
+  margin-left: 5px;
+}
+
+.ContactListItemButton {
+  margin-left: 10px;
+  display: block;
+  border-radius: 4px;
+  width: 70px;
+  border: 1px solid rgb(187, 184, 184);
+  background-color: white;
+  font-weight: bold;
+}
+
+.ContactListItemButton:hover {
+  background-color: cornflowerblue;
+  cursor: pointer;
+}

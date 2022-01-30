@@ -1,0 +1,16 @@
+.FilterLabel {
+  display: flex;
+  flex-direction: column;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.FilterInput {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.FilterInput:focus {
+  outline: cornflowerblue 4px solid;
+}
